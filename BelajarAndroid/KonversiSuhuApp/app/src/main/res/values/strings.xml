@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KonversiSuhuApp</string>
+    <string name="thermometer_icon">Ikon Termometer</string>
+    <string-array name="opsi_konversi">
+        <item>Celsius To Reamur</item>
+        <item>Celsius To Fahrenheit</item>
+        <item>Celsius To Kelvin</item>
+        <item>Reamur To Celsius</item>
+        <item>Reamur To Fahrenheit</item>
+    </string-array>
+</resources>
