@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    
+    <!-- Weather App Strings -->
+    <string name="title_weather_app">Weather App</string>
+    <string name="hint_enter_city">Enter City Name</string>
+    <string name="button_search">Search</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_wind_speed">Wind Speed</string>
+    <string name="error_loading">Error loading weather data</string>
+    <string name="loading">Loading...</string>
+</resources>

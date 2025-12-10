@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WeatherApp" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <!-- Weather App Theme -->
+    <style name="WeatherAppStyle">
+        <item name="android:colorPrimary">@color/primary_blue</item>
+        <item name="android:colorAccent">@color/accent_cyan</item>
+    </style>
+</resources>

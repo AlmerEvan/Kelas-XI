@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Alamat Pengiriman"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/notesInput"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Catatan (Opsional)"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background" />
+
+    <TextView
+        android:id="@+id/totalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: Rp 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Konfirmasi Pesanan" />
+
+</LinearLayout>
